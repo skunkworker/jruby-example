@@ -1,4 +1,4 @@
-source "read-only-mirror.rubygems.org"
+source 'https://rubygems.org'
 
 ruby "~> 3.1"
 

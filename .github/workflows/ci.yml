@@ -1,0 +1,18 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up JRuby
+      uses: jruby/setup-jruby@v1
+      with:
+        ruby-version: '9.4.14.0'
+    - name: Install dependencies
+      run: bundle install
