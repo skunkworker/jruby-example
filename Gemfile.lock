@@ -3,7 +3,7 @@ GEM
   specs:
     date (3.5.1-java)
     jar-dependencies (0.5.7)
-    psych (5.2.6-java)
+    psych (5.3.1-java)
       date
       jar-dependencies (>= 0.1.7)
 
@@ -11,7 +11,7 @@ PLATFORMS
   universal-java-21
 
 DEPENDENCIES
-  psych (~> 5.2.3)
+  psych (= 5.3.1)
 
 RUBY VERSION
    ruby 3.1.7p0 (jruby 9.4.14.0)
