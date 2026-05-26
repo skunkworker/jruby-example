@@ -7,3 +7,4 @@ Bundler.require         # Optional: Automatically requires all gems in the Gemfi
 puts Psych::VERSION.to_s
 
 puts "done"
+puts "foobar"
